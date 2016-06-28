@@ -25,9 +25,18 @@ gulp serve
 ### Search and Replace for the project name
 
 - Project Title: `Clb App Template` -> `My Project Title`
-- ClassCase: `ClbAppTemplate` -> `ClbAppTemplate`
 - methodCase: `clbAppTemplate` -> `clbAppTemplate`
 - markupCase: `clb-app-template` -> `clb-app-template`
+
+### Inject the HBP environement in the bootstrap
+
+- Download https://collab.humanbrainproject.eu/config.json
+- Replace the ``auth.clientId`` value using your own OIDC Client ID
+- Add any configuration specific to your application
+
+Please note that the environment should be served dynamically,
+so your production environement should regenerate its content automatically
+every day at least.
 
 _Remove all of the above text from your project README. Your project README
 starts below._
