@@ -38,8 +38,7 @@ Please note that the environment should be served dynamically,
 so your production environement should regenerate its content automatically
 every day at least.
 
-_Remove all of the above text from your project README. Your project README
-starts below._
+*Remove all of the above text from your project README. Your project README starts below.*
 ----
 
 # Clb App Template
