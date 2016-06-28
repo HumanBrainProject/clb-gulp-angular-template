@@ -4,7 +4,7 @@
   describe('controllers', function(){
     var vm;
 
-    beforeEach(module('visualisationUi'));
+    beforeEach(module('clbAppTemplate'));
     beforeEach(inject(function(_$controller_) {
       vm = _$controller_('MainController');
     }));

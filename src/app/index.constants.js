@@ -3,6 +3,6 @@
   'use strict';
 
   angular
-    .module('visualisationUi')
+    .module('clbAppTemplate')
     .constant('moment', moment);
 })();

@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('visualisationUi')
+    .module('clbAppTemplate')
     .directive('acmeNavbar', acmeNavbar);
 
   /** @ngInject */

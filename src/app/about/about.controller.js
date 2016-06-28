@@ -1,4 +1,4 @@
-angular.module('visualisationUi')
+angular.module('clbAppTemplate')
 .controller('AboutController', function() {
   var vm = this;
 

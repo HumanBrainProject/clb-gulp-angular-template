@@ -38,7 +38,7 @@
   };
 
   angular
-    .module('visualisationUi')
+    .module('clbAppTemplate')
     .config(config);
 
   /** @ngInject */

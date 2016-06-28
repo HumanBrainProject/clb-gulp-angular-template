@@ -1,27 +1,50 @@
-# Visualisation UI
+# HBP Collaboratory Application Template using Gulp and Angular
 
-TBD
+## Bootstrap your template
+
+Fork this project to bootstrap your own application for the HBP Collaboratory.
+
+### Getting started with the template
+
+To start a development server with the template, you need to install NodeJS 4+,
+Bower and Gulp. You can then install the project dependencies. Once you
+installed NodeJS for your system, run the following command from a Terminal.
+
+```bash
+npm install -g bower gulp
+npm install
+bower install
+```
+
+You can then run the development server using `gulp serve` command:
+
+```bash
+gulp serve
+```
+
+### Search and Replace for the project name
+
+- Project Title: `Clb App Template` -> `My Project Title`
+- ClassCase: `ClbAppTemplate` -> `ClbAppTemplate`
+- methodCase: `clbAppTemplate` -> `clbAppTemplate`
+- markupCase: `clb-app-template` -> `clb-app-template`
+
+_Remove all of the above text from your project README. Your project README
+starts below._
+----
+
+# Clb App Template
 
 ## Development
 
 Once you downloaded the code, you are ready to setup your environment using
 npm and bower. First, ensure node is installed on your system. You can then
-install bower as a global dependency using `npm install -g bower`:
+install bower and gulp as a global dependency using `npm install -g bower gulp`,
+then all the project local dependencies using NPM and Bower.
 
 ```shell
-npm install -g bower
-```
-
-And of course, the NPM dependencies used to run the development server and
-build the static assets using `npm install`.
-
-```shell
+npm install -g bower gulp
 npm install
-```
-
-The client-side dependencies are installed using `bower install`
-
-```shell
 bower install
 ```
 

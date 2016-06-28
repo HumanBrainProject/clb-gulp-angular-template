@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('visualisationUi')
+    .module('clbAppTemplate')
     .run(runBlock);
 
   /** @ngInject */
