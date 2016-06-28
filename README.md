@@ -39,7 +39,10 @@ so your production environement should regenerate its content automatically
 every day at least.
 
 *Remove all of the above text from your project README. Your project README starts below.*
+
+
 ----
+
 
 # Clb App Template
 
