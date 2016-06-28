@@ -1,4 +1,6 @@
-# HBP Collaboratory Application Template using Gulp and Angular
+# HBP Collaboratory Javascript Template
+
+HBP Collaboratory Application Template using Gulp and Angular
 
 ## Bootstrap your template
 
